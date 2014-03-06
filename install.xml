@@ -1,0 +1,28 @@
+<?xml version="1.0" ?> 
+<Install>
+	<Files>
+		<File>
+			<Get>HangarSale/bin/Release/HangarSale.exe</Get>
+			<Put>HangarSale.exe</Put>
+			<Dependencies>
+				<Dependency>
+					<Repo>EveComFramework.git</Repo>
+					<Branch>master</Branch>
+				</Dependency>
+				<Dependency>
+					<Repo>EveCom.git</Repo>
+					<Branch>master</Branch>
+				</Dependency>
+			</Dependencies>
+			<Shortcut>
+				<Name>HangarSale</Name>
+			</Shortcut>
+		</File>
+		<File>
+			<Get>HangarSale/bin/Release/HangarSale.pdb</Get>
+			<Put>HangarSale.pdb</Put>
+		</File>
+	</Files>
+	<Global>true</Global>
+	<Type>Program</Type>
+</Install>
